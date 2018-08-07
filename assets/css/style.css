@@ -1,0 +1,45 @@
+/*background image*/
+
+body {
+    background-image: url(../images/oriental.png);
+}
+
+/*header*/
+header {
+    background-color: #ffffff;
+    border-bottom: solid #cccccc 2px;
+    margin-bottom: 50px;
+}
+
+.headerName {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+}
+
+/*main content*/
+
+.mainBody {
+    background-color: #ffffff;
+    border: solid #cccccc 1px;
+    padding: 0px 35px 0px 35px;
+}
+
+.aboutme{
+    border-bottom: solid #cccccc 2px;
+    margin-bottom: 10px;
+}
+
+.bodyTitle {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    padding-top:  10px;
+}
+
+
+.profile-pic {
+    height: 200px;
+    margin-right: 16px;
+    float: left;
+}
