@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,31 +10,85 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Bootstrap Portfolio</title>
 </head>
+
 <body>
 
-        <header>
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-4 headerName">
-                            <h3 class="font-weight-bold">Alex Ichikawa</h3>
-                        </div>       
-      
-                        <div class="col-4">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item border-right">
-                                    <a class="nav-link" href="index.html">About</a>
-                                </li>
-                                <li class="nav-item border-right">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+    <header>
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-3 headerName">
+                    <h3 class="font-weight-bold text-center">Alex Ichikawa</h3>
                 </div>
-            </header>
-    
+
+                <div class="col-sm-9">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item border-right">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mainBody">
+        <div class="row aboutme">
+            <div class="col-sm-12 bodyTitle">
+                <h3 class="font-weight-bold">Contact Me</h3>
+            </div>
+        </div>
+
+        <div class="row bodyContent">
+            <div class="col-sm-12">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="">First and last name</span>
+                    </div>
+                    <input type="text" placeholder="First" class="form-control">
+                    <input type="text" placeholder="Last" class="form-control">
+                </div>
+            </div>
+
+            <div class="col-sm-12">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div>
+
+            <div class="col-sm-12">
+                <div class="input-group">
+                    <div class="input-group-prepend text-area">
+                        <span class="input-group-text">Message</span>
+                    </div>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="col-sm-12">
+                <input class="btn btn-primary" type="submit" value="Submit">
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="fixed-bottom">
+        <div class="container text-center">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer>
+
+
+
 </body>
+
 </html>
