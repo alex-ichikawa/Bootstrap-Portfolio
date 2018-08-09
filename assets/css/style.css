@@ -15,7 +15,8 @@ header {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     color: #ffffff;
     background-color: #4aaaa5;
-    padding-top: 10px;
+    padding-top:8px;
+    padding-bottom: 7px;
 }
 
 .navbar-nav {
