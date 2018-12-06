@@ -101,7 +101,8 @@ html {
 .image2,
 .image3,
 .image4,
-.image5 {
+.image5,
+.image6 {
     height: 250px;
     width: 250px;
     margin: 10px;
@@ -125,6 +126,10 @@ html {
 
 .image5 {
     background-image: url(../images/ph5.jpg);
+}
+
+.image6 {
+    background-image: url(../images/ph6.jpg);
 }
 
 #hyper {
